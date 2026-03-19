@@ -6,20 +6,20 @@ import philosophyImage from '../../assets/img/about-page-img-06.jpg';
 
 const timelineEvents = [
   {
-    year: "2008",
-    title: "Foundation",
-    description: "Founded by Marcus Vane in a small garage in Berlin with a vision for modular living.",
+    year: "2014",
+    title: "Getting Started",
+    description: "Nick began his career in home service and construction, building a reputation for honest work and quality craftsmanship across San Antonio.",
     isFirst: true
   },
   {
-    year: "2014",
-    title: "Urban Expansion",
-    description: "Completed the award-winning 'Vertigo Tower', redefining mixed-use vertical spaces."
+    year: "2019",
+    title: "Going Independent",
+    description: "After years in the trades, Nick launched Cornerstone Home Service LLC — bringing the same work ethic and attention to detail to homeowners directly."
   },
   {
-    year: "2023",
-    title: "Sustainability Award",
-    description: "Named 'Firm of the Year' for our commitment to carbon-neutral construction techniques."
+    year: "2024",
+    title: "Serving the Community",
+    description: "Now proudly serving San Antonio and Boerne families with a full range of handyman and home improvement services, fully insured and HIC licensed."
   }
 ];
 ---
@@ -31,19 +31,19 @@ const timelineEvents = [
       <div class="space-y-8">
         <div class="flex items-center gap-4">
           <div class="h-[1px] w-12 bg-primary" />
-          <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-primary">Philosophy</h2>
+          <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-primary">Our Values</h2>
         </div>
-        <h3 class="text-3xl font-black leading-tight">Architecture is a silent language, balancing form and spirit.</h3>
+        <h3 class="text-3xl font-black leading-tight">Good work, done right, for people who deserve it.</h3>
         <p class="text-slate-600 dark:text-slate-400 leading-loose">
-          At Studio Alpha, we believe that every structure has a responsibility to its environment and its inhabitants. Our approach is rooted in <strong>essentialism</strong>—stripping away the superfluous to reveal the core character of a site.
+          At Cornerstone, we believe your home deserves the same care and respect you put into it. Our approach is rooted in <strong>integrity</strong> — showing up when we say we will, doing the job right the first time, and standing behind our work.
         </p>
         <p class="text-slate-600 dark:text-slate-400 leading-loose">
-          We don't just build walls; we curate light, texture, and movement. Our designs prioritize sustainability not as a feature, but as a foundational principle of modern longevity.
+          We're not a big faceless company. We're your neighbor, and we treat every home like it's our own. Whether it's a small patch or a full room refresh, the standard doesn't change.
         </p>
         <div class="pt-4">
           <Image
             src={philosophyImage}
-            alt="Detail of concrete and wood material interaction showing architectural textures"
+            alt="Handyman working on home improvement project"
             class="rounded shadow-xl w-full"
             loading="lazy"
             decoding="async"
@@ -55,14 +55,13 @@ const timelineEvents = [
           />
         </div>
       </div>
-
       {/* History Column */}
       <div class="space-y-8 lg:pt-32">
         <div class="flex items-center gap-4">
           <div class="h-[1px] w-12 bg-primary" />
           <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-primary">Our Journey</h2>
         </div>
-        <h3 class="text-3xl font-black leading-tight">From a small studio to a global presence.</h3>
+        <h3 class="text-3xl font-black leading-tight">10 years in the trades, built on a foundation of trust.</h3>
         <div class="space-y-10">
           {timelineEvents.map((event) => (
             <Timeline
