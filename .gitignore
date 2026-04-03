@@ -30,3 +30,7 @@ Caddyfile
 .dev.vars*
 !.dev.vars.example
 !.env.example
+
+#Figure it out on your own
+yes
+yes.pub
