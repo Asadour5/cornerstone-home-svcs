@@ -3,9 +3,10 @@
 /* Custom theme configuration */
 @theme {
   /* Colors */
-  --color-primary: #1754cf;
-  --color-background-light: #f6f6f8;
-  --color-background-dark: #111621;
+  --color-primary: #6BCB2D;
+  --color-background-light: #F3F4F6;
+  --color-background-dark: #2A2B2E;
+  --color-slate-900: #2A2B2E;
   
   /* Border radius */
   --radius-default: 0.125rem;
@@ -116,7 +117,7 @@
 
 /* Form elements */
 .bg-white\/10 {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(135, 132, 132, 0.1);
 }
 
 .border-white\/20 {

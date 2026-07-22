@@ -1,4 +1,5 @@
 ---
+import logo from '../../assets/img/goliath_logo.png' 
 export interface Props {
   class?: string;
   size?: 'sm' | 'md' | 'lg';
@@ -7,14 +8,14 @@ export interface Props {
 const { class: className = '', size = 'md' } = Astro.props;
 
 const sizeClasses = {
-  sm: 'size-5',
-  md: 'size-6',
-  lg: 'size-8'
+  sm: 'h-5 w-auto',
+  md: 'h-6 w-auto',
+  lg: 'h-20 w-auto'
 };
----
 
-<div class:list={[sizeClasses[size], 'text-primary', className]}>
-  <svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-    <path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" />
-  </svg>
-</div>
+---
+<img
+src={logo.src}
+alt="Goliath Home Service"
+class:list={[sizeClasses[size], className]}
+/>

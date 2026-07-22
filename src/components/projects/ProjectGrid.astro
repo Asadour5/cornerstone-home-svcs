@@ -10,7 +10,7 @@ import project6Image from '../../assets/img/projects-page-img-06.jpg';
 
 const projects = [
   {
-    title: "Master Bath Overhaul",
+    title: "Bathroom Makeover",
     category: "Bathroom Refresh",
     location: "San Antonio, TX",
     year: "2024",
@@ -18,12 +18,12 @@ const projects = [
     alt: "Refreshed bathroom with new vanity, mirror, and fixtures"
   },
   {
-    title: "Living Room Repaint",
-    category: "Interior Painting",
+    title: "New Playset Assembly",
+    category: "Backyards",
     location: "Boerne, TX",
     year: "2024",
     image: project2Image,
-    alt: "Freshly painted living room with clean trim and neutral tones"
+    alt: "Backyard revamp"
   },
   {
     title: "Drywall Water Damage Repair",
@@ -34,7 +34,7 @@ const projects = [
     alt: "Seamless drywall patch and texture match after water damage"
   },
   {
-    title: "Weekend Room Makeover",
+    title: "End Table Assembly",
     category: "Room Refresh",
     location: "Boerne, TX",
     year: "2024",
@@ -50,7 +50,7 @@ const projects = [
     alt: "Rental unit repainted, patched, and fixtures replaced for new tenants"
   },
   {
-    title: "Fence & Gutter Cleanup",
+    title: "Gutter Cleanup",
     category: "Exterior & Gutters",
     location: "Boerne, TX",
     year: "2024",
@@ -68,7 +68,7 @@ const projects = [
         category={project.category}
         location={project.location}
         year={project.year}
-        image={project.image}  // Passing the ImageMetadata object
+        image={project.image}
         alt={project.alt}
       />
     ))}
